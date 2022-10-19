@@ -1,0 +1,25 @@
+.watch {
+    padding: 100px;
+    width: 450px;
+    height: 450px;
+    border-radius: 400px;
+    background-size: 100%;
+    border: 5px black solid;
+    display: flex;
+    margin: auto;
+    background-image: url("../images/watch.png");
+}
+
+.watch img {
+    position: relative;
+    height: 450px;
+    transition: all 0.5s;
+}
+
+.watch #minutes {
+    position: absolute;
+}
+
+.watch #seconds {
+    position: absolute;
+}
